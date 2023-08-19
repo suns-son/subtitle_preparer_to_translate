@@ -1,8 +1,12 @@
 import re
+#You need to install googletrans to use Google Translate API (pypi.org/project/googletrans/)
 from googletrans import Translator
 
+#This is your files name without extension (without .srt).
 file_name = "1"
+#This is the language you want to translate the subtitle file.
 destination_language = "tr"
+#This is the original language of the subtitle file.
 source_language = "en"
 
 def time_to_sec(boolean: bool, time: str):
