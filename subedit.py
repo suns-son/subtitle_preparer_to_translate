@@ -1,5 +1,6 @@
 import re
 
+#This is your files name without extension (without .srt).
 file_name = "1"
 
 def time_to_sec(boolean: bool, time: str):
